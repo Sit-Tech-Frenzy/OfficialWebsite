@@ -42,6 +42,36 @@ html {
 body {
   margin: 0;
 }
+.mobview
+{
+  display: none;
+}
+#dectop
+{
+  margin-top: -40px!important;
+}
+.card
+{
+  background-color: #642CFF;
+  padding: 30px;
+  border-radius: 20px;
+}
+@media (max-width: 480px) {
+  body {
+    background-image: url("../img/bg2.gif");
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+  .pcview
+  {
+    display: none;
+  }
+  .mobview
+  {
+    display: block;
+  }
+}
 .logo {
   width: 200px;
 }
@@ -1659,5 +1689,3 @@ body {
   -webkit-transition-delay: 0.16s;
   transition-delay: 0.16s;
 }
-
-
