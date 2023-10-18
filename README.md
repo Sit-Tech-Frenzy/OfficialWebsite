@@ -1,2 +1,3 @@
-# FinalWebsite
-World's Best Hackathon Ever Conducted
+# SIT TECH FRENZY
+
+WORLD'S BEST HACKATHON EVER CONDUCTED!
