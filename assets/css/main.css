@@ -237,6 +237,9 @@ body {
 }
 body {
   background-color: #0c0c0c;
+  /* background-image: url("../img/bg.mp4") no-repeat;
+  background-size: 100%;
+  min-height: 100vh; */
   font-size: 14px;
   line-height: 1.6;
   font-family: "Montserrat", sans-serif;
