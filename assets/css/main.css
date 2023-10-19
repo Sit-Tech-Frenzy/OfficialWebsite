@@ -49,7 +49,7 @@ body {
   margin-top: -40px !important;
 }
 .card {
-  background-color: #642cff;
+  /* background-color: #642cff; */
   /* background-color: #f001ff; */
   padding: 30px;
   border-radius: 20px;
@@ -63,14 +63,18 @@ body {
     background-repeat: no-repeat;
   }
   .pcview {
-    display: none;
+    display: none !important;
+  }
+  .intro--options {
+    display: none !important;
   }
   .mobview {
     display: block;
   }
 }
 .logo {
-  width: 200px;
+  width: 300px;
+  margin-top: 10px;
 }
 article,
 aside,
@@ -1569,6 +1573,7 @@ body {
   transition: transform 0.4s;
   transition: transform 0.4s, -webkit-transform 0.4s;
 }
+
 .modalview .container {
   position: absolute;
   width: 100%;
@@ -1576,6 +1581,11 @@ body {
   overflow: hidden;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
+}
+.logo-sit {
+  margin-top: 20px;
+  width: 90px;
+  border-radius: 50%;
 }
 .effect-rotate-left .container {
   -webkit-transform-origin: 0% 50%;
