@@ -49,7 +49,7 @@ body {
   margin-top: -40px !important;
 }
 .card {
-  background-color: #642cff;
+  /* background-color: #642cff; */
   /* background-color: #f001ff; */
   padding: 30px;
   border-radius: 20px;
@@ -64,6 +64,9 @@ body {
   }
   .pcview {
     display: none;
+  }
+  .intro--options {
+    display: none !important;
   }
   .mobview {
     display: block;
