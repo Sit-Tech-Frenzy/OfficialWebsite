@@ -73,7 +73,7 @@ body {
   }
 }
 .logo {
-  width: 300px;
+  width: 200px;
   margin-top: 10px;
 }
 article,
@@ -1584,7 +1584,7 @@ body {
 }
 .logo-sit {
   margin-top: 20px;
-  width: 90px;
+  width: 70px;
   border-radius: 50%;
 }
 .effect-rotate-left .container {
