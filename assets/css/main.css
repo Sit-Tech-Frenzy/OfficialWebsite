@@ -42,20 +42,19 @@ html {
 body {
   margin: 0;
 }
-.mobview
-{
+.mobview {
   display: none;
 }
-#dectop
-{
-  margin-top: -40px!important;
+#dectop {
+  margin-top: -40px !important;
 }
-.card
-{
-  background-color: #642CFF;
+.card {
+  background-color: #642cff;
+  /* background-color: #f001ff; */
   padding: 30px;
   border-radius: 20px;
 }
+
 @media (max-width: 480px) {
   body {
     background-image: url("../img/bg2.gif");
@@ -63,12 +62,10 @@ body {
     background-attachment: fixed;
     background-repeat: no-repeat;
   }
-  .pcview
-  {
+  .pcview {
     display: none;
   }
-  .mobview
-  {
+  .mobview {
     display: block;
   }
 }
