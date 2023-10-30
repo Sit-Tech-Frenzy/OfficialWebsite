@@ -990,7 +990,7 @@ body {
     text-align: center;
     font-size: 18px;
     display: flex;
-    justify-content: left;
+    justify-content: center;
     align-items: center;
 }
 
@@ -1879,7 +1879,8 @@ body {
     transition: transform 0.4s, opacity 0.4s, -webkit-transform 0.4s;
 }
 
-.outer-nav>li::before {
+
+/* .outer-nav>li::before {
     content: "";
     position: absolute;
     top: 50%;
@@ -1890,6 +1891,13 @@ body {
     height: 15px;
     opacity: 0;
     background-color: #f001ff;
+} */
+
+.is-active {
+    background-color: #f001ff;
+    color: #fff;
+    border-radius: 15px;
+    padding: 5px;
 }
 
 .outer-nav>li.is-active::before {
