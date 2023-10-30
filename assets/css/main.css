@@ -1655,7 +1655,15 @@ body {
   transition: transform 0.4s, opacity 0.4s;
   transition: transform 0.4s, opacity 0.4s, -webkit-transform 0.4s;
 }
-.outer-nav > li::before {
+
+.is-active{
+  color: white;
+  background-color: #f001ff;
+  border-radius: 15px;
+  padding: 5px;
+}
+
+/* .outer-nav > li::before {
   content: "";
   position: absolute;
   top: 50%;
@@ -1666,7 +1674,8 @@ body {
   height: 15px;
   opacity: 0;
   background-color: #f001ff;
-}
+} */
+
 .outer-nav > li.is-active::before {
   opacity: 1;
 }
