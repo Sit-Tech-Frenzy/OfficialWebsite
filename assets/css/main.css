@@ -1274,6 +1274,12 @@ body {
   border-radius: 50%;
 }
 
+.iframefix{
+  width: 100%;
+  height: auto;
+  min-height: 400px;
+}
+
 .about--banner h2::after {
   content: "";
   position: absolute;
