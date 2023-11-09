@@ -1,0 +1,19 @@
+body {
+  background-image: linear-gradient(
+    108.7deg,
+    rgba(221, 22, 224, 1) 11%,
+    rgba(111, 22, 190, 1) 88.2%
+  );
+  background-attachment: fixed;
+  color: white !important;
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 500px;
+}
+.nav-link{
+font-weight: 900px!important;
+}
+.iframefix{
+    width: 100%;
+    height: auto;
+    min-height: 569px;
+}
